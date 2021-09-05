@@ -1,0 +1,113 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(0, 0%, 100%, 0.75);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  line-height: 1.8;
+  letter-spacing: 0.2rem;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 750px;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0px 0px 14px 1px #00000024;
+}
+
+.left-container {
+  flex: 33%;
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+}
+
+.left-container a {
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.left-container button:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+
+.middle-container {
+  flex: 33%;
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+}
+
+.middle-container a {
+  color: hsl(184, 100%, 22%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.middle-container button:hover {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 100%, 0.75);
+  color: hsl(0, 0%, 95%);
+}
+
+.right-container {
+  flex: 33%;
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+}
+
+.right-container a {
+  color: hsl(179, 100%, 13%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.right-container button:hover {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 100%, 0.75);
+  color: hsl(0, 0%, 95%);
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
