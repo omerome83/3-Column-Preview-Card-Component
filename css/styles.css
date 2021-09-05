@@ -54,7 +54,6 @@ p {
   background-color: initial;
   border: 2px solid hsl(0, 0%, 100%, 0.75);
   color: hsl(0, 0%, 100%, 0.75);
-  /* font-weight: 200; */
 }
 
 .middle-container {
