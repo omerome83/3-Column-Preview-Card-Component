@@ -53,7 +53,7 @@ color: hsl(0, 0%, 100%, 0.75);
 font-weight: 200;
 ```
 
-This presented an additional issue. When moused-over, the page would slightly move downwards so after doing some googling, by adding a transparent border to the button itself, this peice of code fixed the issue.
+This presented an additional issue. When moused-over, the page would slightly move downwards so after doing some googling, by adding a transparent border to the button itself, this piece of code fixed the issue.
 
 ```css
 border: 2px solid transparent;
