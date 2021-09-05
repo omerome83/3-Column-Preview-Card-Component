@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://omerome83.github.io/3-Column-Preview-Card-Component/](https://omerome83.github.io/3-Column-Preview-Card-Component/)
 
 ## My process
 
