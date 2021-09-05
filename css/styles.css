@@ -3,6 +3,7 @@ body {
   border-radius: 20px;
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
+  background-color: hsla(0, 0%, 100%, 0.75);
 }
 
 h1 {
@@ -21,7 +22,6 @@ a:visited {
 p {
   font-size: 0.7rem;
   font-weight: 400;
-  /* letter-spacing: 0.1rem; */
   margin-bottom: 60px;
 }
 
@@ -43,6 +43,7 @@ p {
 }
 
 .left-container a {
+  display: inline-block;
   color: hsl(31, 77%, 52%);
   text-decoration: none;
   font-weight: 700;
@@ -52,7 +53,7 @@ p {
   background-color: initial;
   border: 2px solid hsl(0, 0%, 100%, 0.75);
   color: hsl(0, 0%, 100%, 0.75);
-  font-weight: 200;
+  /* font-weight: 200; */
 }
 
 .middle-container {
@@ -62,6 +63,7 @@ p {
 }
 
 .middle-container a {
+  display: inline-block;
   color: hsl(184, 100%, 22%);
   text-decoration: none;
   font-weight: 700;
@@ -81,6 +83,7 @@ p {
 }
 
 .right-container a {
+  display: inline-block;
   color: hsl(179, 100%, 13%);
   text-decoration: none;
   font-weight: 700;
@@ -95,9 +98,10 @@ p {
 
 .btn {
   background-color: hsl(0, 0%, 100%, 0.75);
-  -webkit-border-radius: 30;
-  -moz-border-radius: 30;
-  border-radius: 30px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-size: 0.7rem;
