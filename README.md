@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://omerome83.github.io/3-Column-Preview-Card-Component/](https://omerome83.github.io/3-Column-Preview-Card-Component/)
+- Solution URL: [https://github.com/omerome83/3-Column-Preview-Card-Component](https://github.com/omerome83/3-Column-Preview-Card-Component)
+- Live Site URL: [https://omerome83.github.io/3-Column-Preview-Card-Component/](https://omerome83.github.io/3-Column-Preview-Card-Component)
 
 ## My process
 
